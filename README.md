@@ -6,9 +6,11 @@ Localize and recognize book covers from various oblique angles and occlusion pat
 - Query image with one book:
   
 <img width="350" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_1.png?raw=true">
+
 - Query image with three books:
   
 <img width="350" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_3.png?raw=true">
+
 - Query image with five books:
   
 <img width="350" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_5.png?raw=true">
@@ -46,7 +48,7 @@ Localize and recognize book covers from various oblique angles and occlusion pat
    - Rule out the image candidate if the inlier ratio is smaller than 0.6;
 
 5. Non-maximum Suppression<br>
-   - Put a box around the book cover found in the test image. 
+   - Put a box around the book cover found in the test image;
    - If there is any boxes overlap and the overlap area takes up over 70% of the area of the smaller box, keep only the one with corresponding image that has the higher inlier ratio;
 
 ## Result Display
@@ -64,7 +66,7 @@ Localize and recognize book covers from various oblique angles and occlusion pat
 
 - Five Book Queries:
 
-  <img width="400" height="300" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/results/5_query_1.png?raw=true">
+  <img width="350" height="300" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/results/5_query_1.png?raw=true">
   <img width="300" height="300" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/results/5_query_2.png?raw=true">
 
   <img width="400" height="300" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/results/5_query_3.png?raw=true">
