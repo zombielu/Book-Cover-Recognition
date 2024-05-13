@@ -5,7 +5,7 @@ Localize and recognize book covers from various oblique angles and occlusion pat
 ### 1. Query images/Test images:
 - Query image with one book:
   
-<img width="350" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_1.png?raw=true">
+<img width="320" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_1.png?raw=true">
 
 - Query image with three books:
   
@@ -13,7 +13,7 @@ Localize and recognize book covers from various oblique angles and occlusion pat
 
 - Query image with five books:
   
-<img width="350" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_5.png?raw=true">
+<img width="450" height="150" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/query_images_5.png?raw=true">
 
 ### 2. Book cover database with 104 original book cover images:
 <img width="650" height="300" src="https://github.com/zombielu/Book-Cover-Recognition/blob/main/images/database.png?raw=true">
